@@ -1,0 +1,602 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Dawat-e-Hindustan</title>
+
+        <!-- font family -->
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@600&family=Handlee&family=Monoton&family=Pacifico&family=Rancho&display=swap" rel="stylesheet">
+
+        <!-- CSS File -->
+        <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- JAVASCRIPT File -->
+        <script type="text/javascript" src="script.js"></script>
+
+        <!-- Font-Awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap Files -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <!-- Nav Bar -->
+
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+                <div class="topnav" id="myTopnav">
+                <!-- Brand/logo -->
+                <!--<a class="navbar-brand" href="#">
+                  <img src="images/logo4.png" alt="logo" style="width:50px;">
+                  <img src="images/name.png" alt="name" style="width:300px;">
+                </a>-->
+
+                <!-- Links -->
+                <center>
+                <ul class="navbar-nav" class="right">
+                  <li class="nav-item">
+
+                    <a class="nav-link" class="active" href="#"><img src="images/logo4.png" alt="logo" style="width:50px;"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/name.png" alt="name" style="width:300px;"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reservation">Reservation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blogs">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#donate">Donate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+                </center>
+                </ul>
+            </div>
+            </nav>
+
+
+    <!-- Carousal -->
+        <div class="view" style="background-image: url('images/bg/bg6.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <center>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+                  <source srcset="images/bg/bg11.jpeg" media="(min-width: 1400px)">
+                  <source srcset="images/bg/bg5.jpeg" media="(min-width: 768px)">
+                  <source srcset="images/bg/bg5.jpeg" media="(min-width: 576px)">
+                  <img srcset="images/bg/bg11.jpeg" alt="header-image" class="d-block img-fluid">
+              </picture>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                  <source srcset="images/carousel/c1.jpg" media="(min-width: 1400px)">
+                  <source srcset="images/carousel/c6.jpg" media="(min-width: 768px)">
+                  <source srcset="images/carousel/c6.jpg"" media="(min-width: 576px)">
+                  <img srcset="images/carousel/c1.jpg" alt="thali" class="d-block img-fluid">
+              </picture>
+              <div class="carousel-caption">
+                <a href="#menu" class="order-now" style="font-family:pacifico">Order Now</a>
+                <p style="font-family:pacifico; padding-top:20px;">Traditional Indian Thali!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                  <source srcset="images/carousel/c2.jpg" media="(min-width: 1400px)">
+                  <source srcset="images/carousel/c5.jpeg" media="(min-width: 768px)">
+                  <source srcset="images/carousel/c5.jpeg"" media="(min-width: 576px)">
+                  <img srcset="images/carousel/c2.jpg" alt="Sweets" class="d-block img-fluid">
+              </picture>
+              <div class="carousel-caption">
+                <a href="#menu" class="order-now" style="font-family:pacifico">Order Now</a><br>
+                <p style="font-family:pacifico; padding-top:20px;">Kuch meetha ho jae?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </center>
+        </div>
+
+        <!-- About section -->
+        <div id="about" style="background-image: url('images/bg/bg8.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <marquee style="background-color:rgb(255,255,252,0.5)">100% Vegetarian Food . Range of Food Items . Hygine and Cleanliness Assurance . Quality Assurance . Reasonable Cost . Good Service . Convinient Location . Free Delivery (upto 100km) . <b>Visit us or order online and experience Maa ke haath ka swaad!</b></marquee>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-12" id="box">
+                    <h2>About Us</h3>
+                    <p>From Chole bhature of Dehli to Dosa of South, From Rosogolla of From Lassi of Punjab Bengal to Dhokla of Gujarat, to Biryani of Hyderabad, From Vada pav of Mumbai to Puchka of Kolkata, From Dal bati churma of Rajasthan to Litti chokha of Bihar, India is all about mouth watering cuisines.
+                    </p>
+                    <p>
+                    No wonder why Indian cuisine always tops the foodies list worldwide.And these are not just food but the emotions of people. Visit us or order online and experience Maa ke haath ka swaad! ❤
+                    </p>
+                </div>
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-12">
+                    <center class="rotating-logo">
+                    <img src="images/logo2.png" alt="logo" class="rotate linear infinite" >
+                    <center>
+                </div>
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-12" id="box">
+                    <h2>Specialities</h2>
+                    <ul>
+                        <li>100% Vegetarian Food</li>
+                        <li>Range of Food Items</li>
+                        <li>Quality Assurance</li>
+                        <li>Hygine and Cleanliness Assurance</li>
+                        <li>Reasonable Cost</li>
+                        <li>Good Service</li>
+                        <li>Convinient Location</li>
+                        <li>Free Delivery (upto 100km)</li>
+                    <ul>
+                    <br>
+                    <h3>Cheers to your Health! 🍹</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Menu -->
+        <div id="menu" style="background-image: url('images/bg/bg9.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="container-fluid">
+                <h2>Menu</h2>
+                <div class="row">
+                    <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-12" id="box1">
+                    <center>
+                    <h1>Snacks</h1>
+                        <table>
+                            <tr>
+                                <td>Pav Bhaji</td>
+                                <td>120/-</td>
+                            </tr>
+                            <tr>
+                                <td>Chole Bhature</td>
+                                <td>80/-</td>
+                            </tr>
+                            <tr>
+                                <td>Kachori Sabzi</td>
+                                <td>60/-</td>
+                            </tr>
+                        </table>
+                    <h1>Starters</h1>
+                        <table>
+                            <tr>
+                                <td>Samosas</td>
+                                <td>15/-</td>
+                            </tr>
+                            <tr>
+                                <td>Pani-Puri</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Pakoras</td>
+                                <td>70/-</td>
+                            </tr>
+                            <tr>
+                                <td>Papri Chat</td>
+                                <td>80/-</td>
+                            </tr>
+                            <tr>
+                                <td>Tandoori Paneer Tikka</td>
+                                <td>220/-</td>
+                            </tr>
+                        </table>
+                    <h1>Soups and Salad</h1>
+                        <table>
+                            <tr>
+                                <td>Tomato Soup</td>
+                                <td>89/-</td>
+                            </tr>
+                        </table>
+                    <h1>Sabziyan</h1>
+                        <table>
+                            <tr>
+                                <td>Kadhai Paneer</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Shahi Paneer</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Malai Kofta</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Dal Makhani</td>
+                                <td>199/-</td>
+                            </tr>
+                            <tr>
+                                <td>Rajma</td>
+                                <td>141/-</td>
+                            </tr>
+                            <tr>
+                                <td>Chhole</td>
+                                <td>141/-</td>
+                            </tr>
+                        </table>
+                    <h1>Breads</h1>
+                        <table>
+                            <tr>
+                                <td>Papad</td>
+                                <td>15/-</td>
+                            </tr>
+                            <tr>
+                                <td>Roomali Roti</td>
+                                <td>17/-</td>
+                            </tr>
+                            <tr>
+                                <td>Tandoori Roti</td>
+                                <td>30/-</td>
+                            </tr>
+                            <tr>
+                                <td>Butter Naan</td>
+                                <td>58/-</td>
+                            </tr>
+                            <tr>
+                                <td>Stuffed Parantha</td>
+                                <td>53/-</td>
+                            </tr>
+                        </table>
+                    <h1>Rice/Raita</h1>
+                        <table>
+                            <tr>
+                                <td>Boondi Raita</td>
+                                <td>102/-</td>
+                            </tr>
+                            <tr>
+                                <td>Mix-Veg Pulao</td>
+                                <td>161/-</td>
+                            </tr>
+                            <tr>
+                                <td>Dum-Biryani</td>
+                                <td>220/-</td>
+                            </tr>
+                        </table>
+                    <h1>Deserts</h1>
+                        <table>
+                            <tr>
+                                <td>Ras-Malai</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Gulab Jamun</td>
+                                <td>60/-</td>
+                            </tr>
+                            <tr>
+                                <td>Jalebi</td>
+                                <td>65/-</td>
+                            </tr>
+                            <tr>
+                                <td>Kulfi</td>
+                                <td>80/-</td>
+                            </tr>
+                        </table>
+                    <h1>Beverages</h1>
+                        <table>
+                            <tr>
+                                <td>Tea</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Coffee</td>
+                                <td>60/-</td>
+                            </tr>
+                            <tr>
+                                <td>Fresh Juices</td>
+                                <td>65/-</td>
+                            </tr>
+                            <tr>
+                                <td>Shakes</td>
+                                <td>80/-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </center>
+                    <div class="col-12 col-xl-8 col-lg-8 col-sm-12 col-md-12" id="box2">
+                    <center>
+                        <div class="row">
+                            <div class="col-6 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                                <img class="menu-item" src="images/menu/m1.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m2.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m3.jpg" alt="menu-item">
+                            </div>
+                            <div class="col-6 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                                <img class="menu-item" src="images/menu/m4.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m5.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m6.jpg" alt="menu-item">
+                            </div>
+                            <div class="col-6 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                                <img class="menu-item" src="images/menu/m7.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m8.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m9.jpg" alt="menu-item">
+                            </div>
+                            <div class="col-6 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                                <img class="menu-item" src="images/menu/m10.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m11.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m12.jpg" alt="menu-item">
+                            </div>
+                            <div class="col-6 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                                <img class="menu-item" src="images/menu/m13.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m14.jpg" alt="menu-item">
+                                <img class="menu-item" src="images/menu/m15.jpg" alt="menu-item">
+                            </div>
+                        </div>
+                    </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div id="testimonials" class="top-content" style="background-image: url('images/bg/bg6.jpg'); background-repeat: no-repeat; height:auto; background-size: cover; background-position: center center;">
+
+            <div class="container">
+                <h1 style="color:white">Testimonials</h1>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                  </ul>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <p class="t1">
+                        Our family has eaten here twice in the last couple of months though it would be more if we lived closer!        As vegetarians we love Indian food and can say this place is excellent! The bread is always hot and fresh, the portions generous, the flavors are authentic. Best all, the management is fantastic. If your looking for good Indian food this is definitely the place!
+                      </p>
+                    </div>
+                    <div class="carousel-item">
+                      <p class="t1">
+                        So I have eaten here on several occasions. The host is always very welcoming, and the aesthetic is very culturally appropriate. So far all the dishes we have ordered were really good. And the Naan...a must!
+                      </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="t1">
+                        Wow. This word is enough to describe my feedback about this place. Great food and excellent hospitality. Their Food items deserve more than five stars. If you someone wishes to get the authentic flavor of Mughlai items must visit this place. I can’t wait to visit this place again. Thank you so much.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="t1">
+                        The food is freshly cooked and delicious, and the staff are thoughtful, courteous and helpful. A great find.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                         <p class="t1">
+                         As a major fan of Indian food, i have visited many Indian restaurants and can now say that the food served at this venue, is by far the nicest, tastiest and most reasonably priced that i have had the pleasure to enjoy. Service was amazing from the most amiable front of house staff member. I am about to book for tonight's evening meal. Highly recommended.
+                        </p>
+                    </div>
+                </div>
+             </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                 </a>
+            </div>
+        </div>
+
+        <!--Reservation -->
+        <div id="reservation" style="background-image: url('images/bg/bg8.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <center>
+                    <h1>Reservation</h1>
+
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRi94eKaSfjG8Inwc1VR5oiFuSecNzAtvtdSQm229RnxfbDQ/viewform?embedded=true" width=auto height="1291" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </center>
+        </div>
+
+        <!-- Facts -->
+        <div id="blogs" style="background-image: url('images/bg/bg7.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="container">
+                    <h1 style="color:white">Blogs & Facts</h1>
+                    <div class="card-deck">
+                        <div class="card" style="width:auto">
+                          <img class="card-img-top" src="images/blogs/b1.jpg" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Indian People, You Better Earn Your Food!</h4>
+                            <p class="card-text">Well yeah, you heard it right. In this article, I will be discussing some of my experience spiced up with some real science of your body. Working out..</p>
+                            <a href="https://medium.com/skynox/indian-people-you-better-earn-your-food-a72486dbcdcb" class="btn btn-primary">See More..</a>
+                          </div>
+                        </div>
+                        <div class="card" style="width:auto">
+                          <img class="card-img-top" src="images/blogs/b2.jpg" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Best Healthy Lifestyle and Nutrition Tips for Women</h4>
+                            <p class="card-text">People say that women are strong, which is undeniably true! However, it isn’t easy to deal with the urban lifestyle, managing hectic work and personal life. The daily..</p>
+                            <a href="https://medium.com/@andme.in/best-healthy-lifestyle-and-nutrition-tips-for-women-bbff088e5856" class="btn btn-primary">See More..</a>
+                          </div>
+                        </div>
+                        <div class="card" style="width:auto">
+                          <img class="card-img-top" src="images/blogs/b3.png" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Why Sustainable Food Systems are Needed in a post-COVID World</h4>
+                            <p class="card-text">2020 will be a year of reckoning for the world’s food systems. In just months, COVID-19 shut down half the globe. What could this mean for food systems?</p>
+                            <a href="https://insight.wfp.org/why-sustainable-food-systems-are-needed-in-a-post-covid-world-f4c55384ab23" class="btn btn-primary">See More..</a>
+                          </div>
+                        </div>
+                        <div class="card" style="width:auto">
+                          <img class="card-img-top" src="images/blogs/b4.jpeg" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Remembering Forgotten Recipes: From India’s Kitchens</h4>
+                            <p class="card-text">And since it was approaching the Indian Independence I decided to begin this series with a round up of forgotten recipes from the Indian kitchen. Even more ..</p>
+                            <a href="https://medium.com/cucumbertown-magazine/remembering-forgotten-recipes-from-indias-kitchens-101204da8bc" class="btn btn-primary">See More..</a>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="card-group">
+                      <div class="card bg-primary">
+                        <div class="card-body text-center">
+                          <p class="card-text">According to Indian Food Theory, our food has 6 different flavours: sweet, salty, bitter, sour, astringent and spicy.</p>
+                        </div>
+                      </div>
+                      <div class="card bg-warning">
+                        <div class="card-body text-center">
+                          <p class="card-text">Indian food system classifies food into three categories - Saatvic (fresh vegetables and juice), Raajsic (oily and spicy food) and Taamsic (Meat and liquor).</p>
+                        </div>
+                      </div>
+                      <div class="card bg-success">
+                        <div class="card-body text-center">
+                          <p class="card-text">India is the largest producer of spices in the world.</p>
+                        </div>
+                      </div>
+                      <div class="card bg-danger">
+                        <div class="card-body text-center">
+                          <p class="card-text">Black rice is found only in India and China and is also known as forbidden or magic rice.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+        </div>
+
+        <!-- Donate -->
+        <div id="donate" style="background-image: url('images/bg/bg1.jpg'); background-repeat: repeat; background-size: cover; background-position: center center;">
+            <div class="container">
+                <center>
+                    <div class="card">
+                      <img class="card-img-top" src="images/donate/d2.jpg" alt="Donate">
+                      <div class="card-body">
+                        <h5 class="card-title">COVID19: Delhi’s Gurudwara Bangla Sahib is serving 40,000 meals a day</h5>
+                        <p class="card-text">
+                            During the nationwide lockdon due to COVID19, when people are not getting two-meals properly, the Delhi Sikh Gurudwara Management Committee (DSGMC) has stepped forward with a helping hand and is feeding 40000 people daily through the mega kitchen setup that is also buzzing on social media for the automatic bread machine. The DSGMC has prepared the Gurudwara Bangla Sahib kitchen to provide food to thousands of people every day in the national capital.<br>
+                            <a href="https://timesofindia.indiatimes.com/life-style/food-news/covid19-delhis-gurudwara-bangla-sahib-is-serving-40000-meals-a-day/photostory/75066404.cms?picid=75066461" class="btn">see more!</a>
+                        </p>
+
+                        <p class="card-text"><small class="text-muted">" If you cant' feed a hundred people, then just feed one" - <i>Mother Teresa</i>.</small></p>
+                        <a href="https://www.dsgmc.in/SangatServices/Donation" class="btn btn-primary">Donate for a noble cause!</a>
+                      </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div id="contact" style="background-image: url('images/bg/bg10.jpg'); background-repeat: repeat; background-size: cover; background-position: center center;">
+            <center>
+            <div class="row">
+              <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-4">
+                  <h1>LOCATION</h1>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1251639916964!2d77.20753460815449!3d28.626010595416453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd24f8845b47%3A0xc31d7dba181b70c9!2sSri%20Bangla%20Sahib%20Gurudwara!5e0!3m2!1sen!2sin!4v1595148816903!5m2!1sen!2sin" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  <p>
+                    5008, Jai Singh Marg<br>
+                    ABC Road Area, Connaught Place<br>
+                    near Gurudwara Bangla Sahib <br>
+                    New Delhi, Delhi 110001
+                  </p>
+              </div>
+              <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-4">
+                <center>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                      <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                      </ul>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/india.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m1.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m2.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m3.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m4.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m5.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m6.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m7.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m8.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m9.jpg" alt="Dishes" height="400">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/menu/m10.jpg" alt="Dishes" height="400">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
+                    </div>
+                </center>
+              </div>
+              <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-4">
+                <h3>HOURS</h3>
+
+                    <h4>Dine In</h4>
+
+                    <p>Monday & Thursday - Saturday : 5 - 10.30 PM</p>
+
+                    <p>Sunday : 5 - 9.30 PM</p>
+
+                    <p>Sunday Lunch : 11.30 - 2 PM</p>
+
+                    <p>closed Tuesday & Wednesday</p>
+                <h3>CALL US </h3>
+                    <a href="tel:82953092333"><p>+91 8295309233</p></a>
+                <h3>MAIL US </h3>
+                    <p>info@dawate.e.hindustan.com</p>
+              </div>
+            </div>
+        </center>
+        </div>
+            <footer>
+                <center>
+                   <a href="mailto:tgtgupta3@gmail.com"><i  class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="mailto:tgtgupta3@gmail.com" class="fa fa-instagram"></a>
+                    <a href="mailto:tgtgupta3@gmail.com" class="fa fa-twitter"></a>
+                    <p>COPYRIGHT © 2020 DAWAT-E-HINDUSTAN RESTAURANT</p>
+                </center>
+                <marquee>Pictures Courtesy: Pinterest . Blogs Credit: Medium . Designed with ❤ by Tushar Gupta . Hosted using Git Hub Pages . Technologies Used: HTML, CSS, BOOTSTRAP, JAVASCRIPT</marquee>
+            </footer>
+
+
+    </body>
+</html>
+<!--<a href="mailto:tgtgupta3@gmail.com" class="fa fa-google"></a>!-->
